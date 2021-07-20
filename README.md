@@ -1,17 +1,18 @@
 # Password Generator
 
 ## Goals for this Challenge
-* Creating semantic elemnts
-* Ensuring logical structure independent of styling and positioning
-* Creating alt attributes for image elements
-* Arranging heading attributes in sequential order
-* Giving a concise and clear name for title element
+* Create a functional password generator of random characters
+* Prompt the user for criteria and verify that minimum requirements have been met
+* Display the user selected password to the display box in HTML
 
-## List of implemented changes to HTML
-* Changed title element to give a meaningful name
-* Added missing id tag and alt attributes to class "content"
-* Changed classes to same name for child elements of class "benefits"
+## List of implemented functions - Three functions total
+* First we have the writePassword(). This simply writes the password to the display box
+* Then we have a generatePasswordContent function which prompts and creates the password as a string
+* Finally we have a generatePasswordLength that prompts for a password of certain desired length.
 
-## List of implemented changes to CSS
-* Consolidated the CSS declarations for class "benefits"
-* Consolidated the CSS declarations for class "content"
+## Summary of code
+* All of the characters upper, lower, numbers, and special were put into arrays. The arrays were
+used and concatenated as needed based on criteria via prompts inside generatePasswordContent. The password length 
+was prompeted as well, and that value passed to the generatePasswordContent from generatePasswordLength. The 
+resulting random password created there in the generatePasswordContent was passed into writePassword
+to be displayed.
