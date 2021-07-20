@@ -13,6 +13,6 @@
 ## Summary of code
 * All of the characters upper, lower, numbers, and special were put into arrays. The arrays were
 used and concatenated as needed based on criteria via prompts inside generatePasswordContent. The password length 
-was prompeted as well, and that value passed to the generatePasswordContent from generatePasswordLength. The 
+was prompeted as well, and that value was prompted inside generatePasswordLength. The 
 resulting random password created there in the generatePasswordContent was passed into writePassword
 to be displayed.
